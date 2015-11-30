@@ -84,7 +84,7 @@ def main():
     mac_eth0 = '52:54:00:f8:20:20'
     bridge_eth1 = 'virbr100'
     disk_path = '/var/lib/libvirt/images/R20.qcow11'
-    kickstart_path = '/root/PycharmProjects/exercise/exercise/r20/anaconda-ks.cfg'
+    kickstart_path = '/exercise/r20/anaconda-ks.cfg'
     iso_location = '/home/rafael/Downloads/CentOS-7-x86_64-DVD-1503-01.iso'
 
     r20_vm = """virt-install \
@@ -110,7 +110,7 @@ def main():
     mac_eth0 = '52:54:00:f8:21:21'
     bridge_eth1 = 'virbr100'
     disk_path = '/var/lib/libvirt/images/R21.qcow11'
-    kickstart_path = '/root/PycharmProjects/exercise/exercise/r21/anaconda-ks.cfg'
+    kickstart_path = '/exercise/r21/anaconda-ks.cfg'
     iso_location = '/home/rafael/Downloads/CentOS-7-x86_64-DVD-1503-01.iso'
 
     r21_vm = """virt-install \
